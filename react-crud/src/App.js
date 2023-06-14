@@ -1,5 +1,5 @@
 import './App.css';
-
+import Create from './components/create';
 function App() {
   return (
     <div className="main">
