@@ -3,7 +3,7 @@ import axios from 'axios';
 import React, { useState } from 'react';
 import { Button, Checkbox, Form } from 'semantic-ui-react'
 const postData = () => {
-    axios.post(`https://60fbca4591156a0017b4c8a7.mockapi.io/fakeData`, {
+    axios.post(`https://648a4a675fa58521cab1115b.mockapi.io/crud/stewartfake`, {
         firstName,
         lastName,
         checkbox
