@@ -18,7 +18,7 @@ export default function Update() {
     }, []);
 
     const updateAPIData = () => {
-        axios.put(`https://648a4a675fa58521cab1115b.mockapi.io/crud/stewartfake/${id}`, {
+        axios.put(`https://648a4a675fa58521cab1115b.mockapi.io/crud/fakedata/${id}`, {
             firstName,
             lastName,
             checkbox

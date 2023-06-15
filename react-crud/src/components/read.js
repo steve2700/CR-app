@@ -7,7 +7,7 @@ export default function Read() {
   const [APIData, setAPIData] = useState([]);
 
   useEffect(() => {
-    axios.get('https://648a4a675fa58521cab1115b.mockapi.io/crud/stewartfake')
+    axios.get('https://648a4a675fa58521cab1115b.mockapi.io/crud/fakedata')
       .then((response) => {
         setAPIData(response.data);
       })
@@ -17,7 +17,7 @@ export default function Read() {
   }, []);
 
   const deleteEntry = (id) => {
-    axios.delete(`https://648a4a675fa58521cab1115b.mockapi.io/crud/stewartfake/${id}`)
+    axios.delete(`https://648a4a675fa58521cab1115b.mockapi.io/crud/fakedata/${id}`)
       .then((response) => {
         // Perform any necessary actions after successful deletion
         console.log('Entry deleted successfully');
